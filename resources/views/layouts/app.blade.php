@@ -13,6 +13,7 @@
         @if (Request::is('/'))
             @include('inc.showcase')
         @endif
+        @include('inc.messages')
         <div class="row">
             <div class="col-md-8 col-lg-8">
                 @yield('content')
